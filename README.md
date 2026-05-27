@@ -119,3 +119,18 @@ Suggested fields:
 npm test
 npm run build
 ```
+
+## Documentation
+
+Full supporting documentation lives in [`docs/`](docs/):
+
+- [`INSTRUCTION_MANUAL.md`](docs/INSTRUCTION_MANUAL.md) - full user/admin manual
+- [`PROJECT_INTENT.md`](docs/PROJECT_INTENT.md) - what we are building and why
+- [`ARCHITECTURE.md`](docs/ARCHITECTURE.md) - current and future architecture
+- [`AI_KNOWLEDGE_ENRICHMENT_LAYER.md`](docs/AI_KNOWLEDGE_ENRICHMENT_LAYER.md) - enrichment record definition
+- [`SALESFORCE_SETUP.md`](docs/SALESFORCE_SETUP.md) - recommended Salesforce object and fields
+- [`PRODUCT_ENGINEERING_STANDARD.md`](docs/PRODUCT_ENGINEERING_STANDARD.md) - AI support readiness standard for new features
+- [`PILOT_AND_METRICS.md`](docs/PILOT_AND_METRICS.md) - pilot rollout and measurement plan
+- [`ONE_CLAIRE_UTILITY_SPEC.md`](docs/ONE_CLAIRE_UTILITY_SPEC.md) - utility feature/API specification
+- [`REVIEW_CHECKLIST.md`](docs/REVIEW_CHECKLIST.md) - approval checklist for generated layers
+- [`EXAMPLES.md`](docs/EXAMPLES.md) - sample transformations
