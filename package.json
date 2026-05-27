@@ -1,0 +1,38 @@
+{
+  "name": "one-claire",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ONE Claire AI Knowledge Enrichment Layer utility for Salesforce Knowledge articles.",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm:dev:api\" \"npm:dev:web\"",
+    "dev:api": "tsx watch src/server/index.ts",
+    "dev:web": "vite --host 0.0.0.0",
+    "build": "tsc -p tsconfig.json && vite build",
+    "start": "NODE_ENV=production node dist/src/server/index.js",
+    "test": "vitest run",
+    "lint": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "typescript": "latest",
+    "tsx": "latest",
+    "vitest": "latest",
+    "concurrently": "latest",
+    "express": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "zod": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest"
+  },
+  "devDependencies": {
+    "@types/express": "latest",
+    "@types/cors": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
+  }
+}
